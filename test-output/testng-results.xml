@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-15T02:02:03 CDT" name="Suite" finished-at="2024-08-15T02:02:57 CDT" duration-ms="54485">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrder.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" name="submitOrder" class="XCompany.TestCases.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-15T02:02:03 CDT" name="Error Validation Test" finished-at="2024-08-15T02:02:10 CDT" duration-ms="7730">
+      <class name="XCompany.TestCases.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:XCompany.TestCases.ErrorValidation@4d0d9fe7]" started-at="2024-08-15T02:02:03 CDT" name="launchApplication" finished-at="2024-08-15T02:02:10 CDT" duration-ms="7711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+      </class> <!-- XCompany.TestCases.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-08-15T02:02:03 CDT" name="Submit Order Test" finished-at="2024-08-15T02:02:57 CDT" duration-ms="54485">
+      <class name="XCompany.TestCases.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" started-at="2024-08-15T02:02:03 CDT" name="launchApplication" finished-at="2024-08-15T02:02:10 CDT" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" started-at="2024-08-15T02:02:10 CDT" name="submitOrder" data-provider="getData" finished-at="2024-08-15T02:02:33 CDT" duration-ms="22751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumayya2716@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumayya12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" started-at="2024-08-15T02:02:33 CDT" name="tearDown" finished-at="2024-08-15T02:02:33 CDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" started-at="2024-08-15T02:02:33 CDT" name="submitOrder" data-provider="getData" finished-at="2024-08-15T02:02:57 CDT" duration-ms="23688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumayya2716@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumayya12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:XCompany.TestCases.SubmitOrder@72035809]" started-at="2024-08-15T02:02:57 CDT" name="tearDown" finished-at="2024-08-15T02:02:57 CDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- XCompany.TestCases.SubmitOrder -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
